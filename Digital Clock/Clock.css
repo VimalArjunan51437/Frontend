@@ -1,0 +1,68 @@
+#main {         
+    justify-content: center;
+    display: inline-flex;
+    background-color: pink;
+    font-size: 9rem;
+    padding: 20% 0px 20% 0px;
+    width: 100%;
+    height: auto;
+}
+
+p { 
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  margin: 0;
+}
+#clock {
+    padding: 5px 50px;
+    margin-right: 40px;
+  }
+#time{
+    padding: 5px 50px;
+    margin-left: 40px;
+}
+#clock:hover{
+    background-color:rgb(119, 0, 255)
+}
+
+#time:hover{
+    background-color:red
+}
+
+
+@media (max-width: 1040px)  {
+  #main{
+      justify-content: center;
+      display: inline-flex;
+      position: absolute;
+      background-color: rgb(238, 225, 209);
+      font-size: 1rem;
+      padding: 1rem 0px 1rem 0px;
+      width: 100%;
+      height: 100%;
+      
+    }
+  
+  p {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin: 0;
+  }
+  #clock {
+    padding: 5px 50px;
+    margin-right: 40px;
+  }
+  #time{
+      padding: 5px 50px;
+      margin-left: 40px;
+  }
+  #clock:hover{
+    background-color:rgb(119, 0, 255)
+  }
+  
+  
+  #time:hover{
+    background-color:red
+  }
+}
+  
